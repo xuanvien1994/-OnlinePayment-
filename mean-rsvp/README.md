@@ -32,5 +32,31 @@ https://auth0.com/blog/real-world-angular-series-part-1/
 ### Steps creating apps
 ng new mean-rsvp --routing --style scss
 
+### iNSTALL nOsql booster
+https://nosqlbooster.com/downloads
+
+### Create mlam mongo db user
+https://mlab.com/databases/mean#users
+
 ### Mongo db connection
-mongodb://<baodongco>:<root>@ds033145.mlab.com:33145/mean
+mongodb://baodongco:root@ds033145.mlab.com:33145/mean
+
+### Sign Up for a Free Auth0 Account
+https://auth0.com/
+
+### Install dependencies
+ npm install --save express body-parser express-jwt jwks-rsa method-override mongoose cors --save
+
+ ### Serve and Watch the App and API
+ $ npm install nodemon -g
+
+ ### Star app:
+ 1. start Angular: 
+ ng serve
+ 2. start node:
+ set NODE_ENV=dev
+ nodemon server
+
+
+### Generate home components
+ng g component pages/home
